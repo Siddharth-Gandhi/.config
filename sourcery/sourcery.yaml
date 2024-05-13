@@ -1,0 +1,14 @@
+rule_settings:
+  disable:
+  - remove-redundant-if
+  - raise-specific-error
+  - use-named-expression
+  - use-next
+  - inline-immediately-returned-variable
+
+  rule_types:
+  - refactoring
+  - suggestion
+  - comment
+coding_assistant:
+  enabled: true
