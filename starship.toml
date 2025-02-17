@@ -1,10 +1,7 @@
-
-command_timeout=1000
-
 [hostname]
 ssh_only = false
-format =  " at [$hostname](yellow) in "
-trim_at = ".local"
+format =  " at [$hostname](yellow) in " 
+trim_at = ".companyname.com"
 disabled = false
 
 [username]
