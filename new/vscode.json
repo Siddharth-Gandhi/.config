@@ -1,0 +1,180 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "debug.console.acceptSuggestionOnEnter": "on",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.find.autoFindInSelection": "multiline",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnType": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.inlineSuggest.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.minimap.showSlider": "always",
+    "editor.scrollbar.verticalScrollbarSize": 24,
+    "editor.smoothScrolling": true,
+    "editor.stablePeek": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    // "editor.tokenColorCustomizations": {
+    //     "[*Dark*]": {
+    //         "textMateRules": [
+    //             {
+    //                 "scope": "ref.matchtext",
+    //                 "settings": {
+    //                     "foreground": "#fff"
+    //                 }
+    //             }
+    //         ]
+    //     },
+    //     "[*Light*]": {
+    //         "textMateRules": [
+    //             {
+    //                 "scope": "ref.matchtext",
+    //                 "settings": {
+    //                     "foreground": "#000"
+    //                 }
+    //             }
+    //         ]
+    //     },
+    //     "textMateRules": [
+    //         {
+    //             "scope": "keyword.other.dotenv",
+    //             "settings": {
+    //                 "foreground": "#FF000000"
+    //             }
+    //         }
+    //     ]
+    // },
+    "explorer.autoReveal": "focusNoScroll",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.associations": {
+        ".env*": "dotenv"
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.ignoreLegacyWarning": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "multiCommand.commands": [ // for cmd+w closing
+        {
+            "command": "multiCommand.closeEditorFocusLeft",
+            "sequence": [
+                "workbench.action.closeActiveEditor",
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "command": "multiCommand.closeEditorOnly",
+            "sequence": [
+                "workbench.action.closeActiveEditor"
+            ]
+        }
+    ],
+    "notebook.lineNumbers": "on",
+    "outline.showVariables": false,
+    "python.languageServer": "Pylance",
+    "remote.SSH.remotePlatform": {
+        "boston-cluster.lti.cs.cmu.edu": "linux",
+        "grogu-0-19": "linux",
+        "grogu-1-3": "linux",
+        "grogu-1-40": "linux",
+        "grogu-2-22": "linux",
+        "matrix-0-18": "linux",
+        "matrix-0-22": "linux",
+        "matrix-1-14": "linux",
+        "matrix-1-22": "linux",
+        "matrix-1-24": "linux",
+        "matrix-2-29": "linux",
+        "matrix-3-18": "linux",
+        "matrix-3-22": "linux",
+        "matrix-3-26": "linux",
+        "matrix-3-28": "linux",
+        "matrix.cs.cmu.edu": "linux",
+        "matrix.ml.cmu.edu": "linux",
+        "babel-4-25": "linux",
+        "babel.lti.cs.cmu.edu": "linux",
+        "babel-7-9": "linux",
+        "grogu-1-19": "linux",
+        "babel-12-17": "linux",
+        "babel-5-27": "linux",
+        "babel-a-20": "linux",
+        "babel-0-23": "linux",
+        "babel-6-13": "linux",
+        "babel-4-17": "linux",
+        "babel-13-1": "linux",
+        "babel-6-9": "linux",
+        "grogu.ri.cmu.edu": "linux",
+        "babel-4-13": "linux",
+        "babel-4-29": "linux",
+        "babel-14-5": "linux",
+        "babel-4-5": "linux",
+        "babel-12-9": "linux",
+        "babel-13-5": "linux",
+        "babel-13-13": "linux",
+        "babel-12-5": "linux",
+        "babel-2-25": "linux",
+        "babel-10-5": "linux",
+        "babel-5-23": "linux",
+        "babel-2-13": "linux",
+        "grogu": "linux",
+        "babel-4-1": "linux",
+        "babel-3-9": "linux",
+        "babel-7-5": "linux"
+    },
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "remote.SSH.useLocalServer": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.commandsToSkipShell": [
+        "-workbench.action.terminal.focusFind",
+        "-workbench.action.quickOpenNavigateNextInFilePicker"
+    ],
+    "terminal.integrated.confirmOnExit": "always",
+    "terminal.integrated.confirmOnKill": "always",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.inheritEnv": true,
+    "terminal.integrated.macOptionClickForcesSelection": true, // for tmux inside vscode
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.tabs.showActiveTerminal": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "workbench.editorAssociations": {
+        "*.prof": "default"
+    },
+    "workbench.layoutControl.type": "menu",
+    "workbench.list.smoothScrolling": true,
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.settings.editor": "json",
+    "workbench.sideBar.location": "right",
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "[ini]": {
+        "editor.wordWrap": "on"
+    },
+    "[yaml]": {
+        "editor.wordWrap": "on"
+    },
+    "[sh]": {
+        "editor.wordWrap": "on"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": []
+    },
+    "workbench.colorTheme": "Default Dark Modern",
+    "cursor.cpp.disabledLanguages": [],
+    "editor.minimap.enabled": true,
+    "dotenv.enableAutocloaking": false,
+    // "terminal.integrated.fontSize": 11,
+}
